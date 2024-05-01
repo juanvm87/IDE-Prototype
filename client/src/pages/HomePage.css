@@ -1,0 +1,142 @@
+/* General Body and Page Layout */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Improved Background Image with Gradient Overlay */
+.backgroundImage {
+    height: 70vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+        url('../assets/bg.png') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.8);
+}
+
+/* Sticky Navigation Bar */
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 0.5rem 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    /* Center links horizontally */
+    align-items: center;
+    /* Align links vertically */
+}
+
+/* Navigation links styling */
+.nav-link {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    /* Space between links */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #0056b3;
+}
+
+/* Main header styling */
+.header {
+    font-size: 3rem;
+    /* Increased font size */
+    color: #007bff;
+    /* Blue color for better visibility */
+    padding-top: 2rem;
+    /* More padding on top */
+    text-align: center;
+    /* Center alignment */
+    font-weight: bold;
+    /* Bold font weight */
+    text-transform: uppercase;
+    /* Uppercase text for stylistic preference */
+    letter-spacing: 2px;
+    /* More space between letters */
+}
+
+/* Secondary header styling */
+.subHeader {
+    font-size: 1.75rem;
+    /* Larger font size */
+    color: #ccc;
+    /* Lighter gray color */
+    text-align: center;
+    /* Center alignment */
+    font-style: italic;
+    /* Italic style for differentiation */
+    margin-top: 10px;
+    /* Space above sub-header */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+    /* Text shadow for depth */
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 768px) {
+
+    /* Adjust header sizes for tablet and smaller devices */
+    .header {
+        font-size: 2.5rem;
+        padding-top: 1rem;
+    }
+
+    .subHeader {
+        font-size: 1.5rem;
+    }
+
+    /* Reduce height of background image area for smaller screens */
+    .backgroundImage {
+        height: 50vh;
+    }
+
+    /* Smaller padding and font size for navigation links */
+    .nav-link {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* Further reduce font sizes and layout dimensions for mobile devices */
+    .header {
+        font-size: 2rem;
+    }
+
+    .subHeader {
+        font-size: 1.2rem;
+    }
+
+    /* Adjust navigation styling for mobile */
+    .navigation {
+        flex-direction: column;
+        /* Stack nav links vertically */
+        padding: 0.5rem 0;
+    }
+
+    .nav-link {
+        margin: 5px 0;
+        /* Reduce margin for compact appearance */
+        padding: 5px 10px;
+        font-size: 0.8rem;
+    }
+
+    /* Adjust background image styling for better mobile display */
+    .backgroundImage {
+        height: 40vh;
+    }
+}

@@ -1,0 +1,38 @@
+.list--header {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.list--header h2 {
+    color: #525252;
+}
+
+.list--header select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    height: fit-content;
+}
+
+.list--container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.list {
+    display: flex;
+    padding-right: 10px;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.3s ease-in-out;
+}
+
+.subs--details {}
+
+.list:hover {
+    background-color: #dde6ed;
+    border-radius: 10px;
+}

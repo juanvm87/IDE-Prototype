@@ -1,0 +1,50 @@
+.subscription-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.subscription-form input[type="text"],
+.subscription-form input[type="number"],
+.subscription-form input[type="date"],
+.subscription-form select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.subscription-form label {
+    margin: 10px 0 5px;
+    display: block; /* Ensures the label is on its own line */
+    color: rgb(27, 100, 208); /* Main color for labels */
+}
+
+.subscription-form button {
+    width: 100%;
+    background-color: rgb(27, 100, 208); /* Main color used here */
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.subscription-form button:hover {
+    background-color: #1e7bcb; /* Slightly lighter shade for hover effect */
+}
+
+.link-home {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(27, 100, 208);
+    text-decoration: none;
+}

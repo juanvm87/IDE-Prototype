@@ -1,0 +1,22 @@
+user will be put a subscription name, store
+2-all subscrition list 
+3-he shall be able to add the start date of the subscription 
+4-subscription fee entrince so we can calculate total amount of subscription
+5-user uploads terms and condition of the subscription and we evaluate it, or summarize important things!
+6.if the reneval date of the subscription  close we send him an email or warning reminder in the website!
+7.notify the user in subscription list page 
+
+take care of the user interface
+8.user login 
+9.nodejs backend ot firebase backend
+10.deployment 
+
+Notes to myself
+fix the function
+wave
+
+//userlogin
+https://www.youtube.com/watch?v=sh7xiO7jnV0
+https://www.youtube.com/watch?v=T-Pum2TraX4
+https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-16-04
+

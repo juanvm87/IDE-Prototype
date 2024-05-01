@@ -1,0 +1,66 @@
+.terms-upload {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.upload-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-textarea {
+    height: 300px; 
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: vertical; 
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #004494;
+}
+
+.submit-btn:disabled {
+    background-color: #ccc;
+    cursor: default;
+}
+
+.summary-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.home-link {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.home-link:hover {
+    background-color: #004494;
+}
