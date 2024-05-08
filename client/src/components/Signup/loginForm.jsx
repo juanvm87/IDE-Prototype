@@ -27,13 +27,13 @@ export function LoginForm(props) {
       <MutedLink href="#">Forget your password?</MutedLink>
       <Marginer direction="vertical" margin="1.6em" />
       <SubmitButton onClick={handleSignin} type="submit">
-        Signin
+        Sign in
       </SubmitButton>
       <Marginer direction="vertical" margin="5px" />
       <LineText>
         Don't have an accoun?{" "}
         <BoldLink onClick={switchToSignup} href="#">
-          Signup
+          Sign up
         </BoldLink>
       </LineText>
     </BoxContainer>

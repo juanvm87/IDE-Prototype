@@ -19,7 +19,7 @@ export const MainPage = () => {
         <div className="intro">
           <h1>Manage your subscriptions</h1>
           <p>Keep your responsibilities under control with Semaphore</p>
-          <button onClick={handleLogin}>Login</button>
+          <button onClick={handleLogin}>Log in</button>
         </div>
         <div className="about-me">
           <div className="about-me-text">
