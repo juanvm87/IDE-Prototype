@@ -10,6 +10,7 @@ import {
   BiTask,
   BiHelpCircle,
 } from "react-icons/bi";
+import { MdMarkEmailUnread } from "react-icons/md";
 const Sidebar = () => {
   return (
     <div className="menu1">
@@ -37,6 +38,10 @@ const Sidebar = () => {
         <a href="/chat" className="item">
           <BiHelpCircle className="icon" />
           <span>Help</span>
+        </a>
+        <a href="/dashBoard" className="item">
+          <MdMarkEmailUnread className="icon" />
+          <span>Inbox</span>
         </a>
       </div>
     </div>

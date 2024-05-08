@@ -12,7 +12,7 @@ const Profile = () => {
           <img src={userImage} alt=""></img>
           <h3 className="username">Juan Martin</h3>
           <span className="profession"> Software Engineer</span>
-          <span className="profession"> ELMejor@gmail.com</span>
+          <span className="profession"> ElMejor@semaphore.com</span>
         </div>
       </div>
     </div>

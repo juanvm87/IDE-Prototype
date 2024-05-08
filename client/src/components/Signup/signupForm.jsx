@@ -28,13 +28,19 @@ export function SignupForm(props) {
       </FormContainer>
       <Marginer direction="vertical" margin={10} />
       <SubmitButton onClick={handleSignin} type="submit">
-        Signup
+        Sign up
       </SubmitButton>
       <Marginer direction="vertical" margin="5px" />
       <LineText>
         Already have an account?{" "}
         <BoldLink onClick={switchToSignin} href="#">
-          Signin
+          Sign in
+        </BoldLink>
+      </LineText>
+      <LineText>
+        Create Semaphore{" "}
+        <BoldLink onClick={switchToSignin} href="#">
+          Email
         </BoldLink>
       </LineText>
     </BoxContainer>

@@ -43,10 +43,10 @@ function HomePage() {
       <div className="backgroundImage">
         <div className="wave"> </div>
       </div>
-      <h1 className="header">Upgrade now and get access to:</h1>
+
       <div className="button-container">
         <Link to="/personalised" className="nav-link">
-          Personalised Recommendatiom
+          Personalised Recommendation
         </Link>
         <Link to="/terms-upload" className="nav-link">
           Subscribe safely with our virtual payment card
