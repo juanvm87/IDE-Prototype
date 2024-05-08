@@ -69,20 +69,10 @@ body {
     /* More space between letters */
 }
 
-/* Secondary header styling */
-.subHeader {
-    font-size: 1.75rem;
-    /* Larger font size */
-    color: #ccc;
-    /* Lighter gray color */
-    text-align: center;
-    /* Center alignment */
-    font-style: italic;
-    /* Italic style for differentiation */
-    margin-top: 10px;
-    /* Space above sub-header */
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
-    /* Text shadow for depth */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
 }
 
 /* Responsive Design Adjustments */
